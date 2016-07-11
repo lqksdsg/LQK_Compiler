@@ -22,7 +22,7 @@ static char* get_fd_ptr(const char *path)           //read file
     return file_buf;
 }
 
-const char* line=0;
+const char* line = 0;
 int lineno=1;
 Coordinate* place = new Coordinate();       //位置
 
